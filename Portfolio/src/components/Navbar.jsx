@@ -12,7 +12,7 @@ const Navbar = () => {
             <ul className='flex justify-between w-3/5'>
                 <div className='left-nav '>
                     <li>
-                        <img src={logo} alt="" />
+                        <p>Andrey Villegas</p>
                     </li>
                 </div>
 

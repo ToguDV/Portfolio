@@ -4,14 +4,17 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Navbar from './components/Navbar'
 import Profile from './components/Profile'
+import Stats from './components/Stats'
+import Offer from './components/Offer'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
       <Navbar></Navbar>
       <Profile></Profile>
+      <Stats></Stats>
+      <Offer></Offer>
     </>
   )
 }
