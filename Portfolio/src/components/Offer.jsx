@@ -19,7 +19,7 @@ const Offer = () => {
                     <div className='offer-tarjet offer-color2 ml-10 mr-10'>
                         <div className='tarjet-header mt-11 ml-5'>
                             <BiBot className='text-2xl mb-3'></BiBot>
-                            <h1 className='text-xl font-bold'>AUTOMATIZATION</h1>
+                            <h1 className='text-xl font-bold'>AUTOMATION</h1>
                         </div>
                         <p className='mt-5 ml-5'>Reduce errors, and save time with my automation solutions. Experience the transformative power of automation for your business success.</p>
 

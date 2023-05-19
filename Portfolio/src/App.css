@@ -14,13 +14,13 @@ body {
   margin-right: 8px;
 }
 
-a {
+.mid-nav a {
   position: relative;
   text-decoration: none;
   padding-bottom: 10px;
 }
 
-a::before {
+.mid-nav a::before {
   content: '';
   position: absolute;
   width: 60%;
@@ -34,12 +34,12 @@ a::before {
   transition: transform .3s ease-in-out;
 }
 
-a:hover::before {
+.mid-nav a:hover::before {
   transform-origin: left;
   transform: scaleX(1);
 }
 
-nav {
+.nav {
   border-bottom-color: rgba(25, 25, 25, 255);
 }
 
@@ -97,13 +97,17 @@ nav {
 
 .stats-container {
   background-color: rgba(26, 26, 26, 255);
-  box-shadow: 4px 6px 14px #00000036;
+  box-shadow: 4px 6px 14px #22222217;
+  border-bottom-width: 1px;
+  border-bottom-color: #232323;
+  border-top-width: 1px;
+  border-top-color: #232323;
 }
 
 .stats-item {
   width: 190px;
   height: 190px;
-  box-shadow: 4px 6px 14px #00000036;
+  box-shadow: 4px 6px 14px #0000000e;
   border-radius: 3px;
   color: #F9F9F9;
   padding: 16px;
@@ -127,7 +131,7 @@ nav {
 .offer-tarjet {
   width: 260px;
   height: 300px;
-  box-shadow: 4px 6px 14px #00000036;
+  box-shadow: 4px 6px 14px #7a7a7a28;
   border-radius: 3px;
   color: #F9F9F9;
   padding: 16px;
@@ -151,4 +155,11 @@ nav {
 
 .offer-color4 {
   background-color:#8A2FF6;
+}
+
+.footer {
+  background-color: black;
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
 }

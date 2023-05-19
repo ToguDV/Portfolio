@@ -8,7 +8,7 @@ import { BsFillClipboardHeartFill } from 'react-icons/bs';
 
 const Navbar = () => {
     return (
-        <nav className='nav flex justify-center mt-5  border-b-2 pb-7'>
+        <nav className='nav flex justify-center mt-8  border-b-2 pb-5'>
             <ul className='flex justify-between w-3/5'>
                 <div className='left-nav '>
                     <li>
@@ -25,10 +25,13 @@ const Navbar = () => {
                         <li className='pr-14 text-xl flex'>Home</li>
                     </a>
 
+                    { /*
                     <a className='flex'>
                         <CgProfile className='nav-item text-2xl' />
                         <li className='pr-14 text-xl flex'>About</li>
                     </a>
+                    */
+                    }
 
 
                     <a className='flex'>
