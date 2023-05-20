@@ -12,7 +12,7 @@ const Navbar = () => {
             <ul className='flex justify-between w-3/5'>
                 <div className='left-nav '>
                     <li>
-                        <p>Andrey Villegas</p>
+                        <a href='/'>Andrey Villegas</a>
                     </li>
                 </div>
 
@@ -20,7 +20,7 @@ const Navbar = () => {
 
 
 
-                    <a className='flex'>
+                    <a className='flex' href='/'>
                         <BiHomeHeart className='nav-item text-2xl' />
                         <li className='pr-14 text-xl flex'>Home</li>
                     </a>
@@ -34,11 +34,11 @@ const Navbar = () => {
                     }
 
 
-                    <a className='flex'>
+                    <a className='flex' href='/projects'>
                         <HiCodeBracketSquare className='nav-item text-2xl' />
                         <li className='pr-14 text-xl flex'>Projects</li>
                     </a>
-                    <a className='flex'>
+                    <a className='flex' href='/resume'>
                         <BsFillClipboardHeartFill className='nav-item' />
                         <li className='pr-14 text-xl flex'>Resume</li>
                     </a>

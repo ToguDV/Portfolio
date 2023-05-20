@@ -1,10 +1,11 @@
 import React from 'react'
 
 const Footer = () => {
+    var dt = new Date();
     return (
         <>
-            <footer class="footer mt-10">
-                <p>&copy; 2023 ToguDV. All rights reserved.</p>
+            <footer className="footer mt-10">
+                <p>&copy; {dt.getFullYear()} ToguDV. All rights reserved.</p>
             </footer>
 
         </>

@@ -8,17 +8,27 @@ import Stats from './components/Stats'
 import Offer from './components/Offer'
 import Social from './components/Social'
 import Footer from './components/Footer'
+import Home from './pages/Home'
+import Projects from './pages/Projects'
+import {
+  BrowserRouter as Router,
+  Route,
+  Routes,
+} from "react-router-dom";
 
 function App() {
 
   return (
     <>
-      <Navbar></Navbar>
-      <Profile></Profile>
-      <Stats></Stats>
-      <Offer></Offer>
-      <Social></Social>
-      <Footer></Footer>
+      <Router>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home/>} />
+          <Route path="/projects" element={<Projects/>} />
+        </Routes>
+        <Footer />
+      </Router>
+
     </>
   )
 }
