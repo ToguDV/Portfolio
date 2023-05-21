@@ -9,10 +9,10 @@ import { BsFillClipboardHeartFill } from 'react-icons/bs';
 const Navbar = () => {
     return (
         <nav className='nav flex justify-center mt-8  border-b-2 pb-5'>
-            <ul className='flex justify-between w-3/5'>
-                <div className='left-nav '>
+            <ul className='flex justify-between w-3/5 max-lg:w-11/12 flex-wrap'>
+                <div className='left-nav mr-5 max-lg:mb-5'>
                     <li>
-                        <a href='/'>Andrey Villegas</a>
+                        <a className='' href='/'>Andrey Villegas</a>
                     </li>
                 </div>
 

@@ -7,7 +7,7 @@ const Stats = () => {
     const [experience, setExperience] = React.useState(3);
     return (
         <>
-            <div className='flex justify-center mt-10 stats-container'>
+            <div className='flex justify-center mt-10 stats-container flex-wrap'>
 
                 <div className='flex stat-blue stats-item flex-col items-center ml-10 mr-10'>
                     <p className='text-center mb-4 text-2xl font-bold'>PROJECTS</p>

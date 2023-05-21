@@ -64,6 +64,18 @@ body {
   -webkit-text-fill-color: transparent;
 }
 
+@media (max-width:800px) {
+  .Typewriter__cursor {
+    font-size: 2rem;
+  }
+
+  .Typewriter__wrapper {
+    font-size: 2rem;
+  }
+
+
+}
+
 .btn-projects {
   border-width: 1px;
   border-color: #232323;
@@ -115,6 +127,7 @@ body {
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
 
 .stat-purple {
   background-color: #8A2FF6;

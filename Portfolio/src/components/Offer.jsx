@@ -6,7 +6,7 @@ const Offer = () => {
         <>
             <div className='flex flex-col items-center mt-24'>
                 <h1 className='text-4xl mb-10 font-bold text-white'>What I do</h1>
-                <div className='offers-container flex'>
+                <div className='offers-container flex flex-wrap justify-center'>
                     <div className='offer-tarjet offer-color1 ml-10 mr-10'>
                         <div className='tarjet-header mt-11 ml-5'>
                             <BiCodeBlock className='text-2xl mb-3'></BiCodeBlock>
