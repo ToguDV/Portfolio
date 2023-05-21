@@ -38,10 +38,14 @@ const Navbar = () => {
                         <HiCodeBracketSquare className='nav-item text-2xl' />
                         <li className='pr-14 text-xl flex'>Projects</li>
                     </a>
+
+                    { /*
                     <a className='flex' href='/resume'>
                         <BsFillClipboardHeartFill className='nav-item' />
                         <li className='pr-14 text-xl flex'>Resume</li>
                     </a>
+                    */
+                    }
 
                 </div>
 

@@ -3,6 +3,7 @@ import React from 'react'
 const ProjectItem = (props) => {
     return (
         <>
+            <a href={props.link} target='_blank'>
             <article className="article-wrapper m-5">
                 <div className="rounded-lg container-project">
                     <img src={props.img} alt="" />
@@ -25,6 +26,7 @@ const ProjectItem = (props) => {
                     </div>
                 </div>
             </article>
+            </a>
         </>
     )
 }
