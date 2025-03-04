@@ -12,12 +12,12 @@ const Profile = () => {
                 <p className='mt-3'>Hey, I'm Togu 👋</p>
                 <Type className='desc-anim text-5xl w-11/12 text-center mt-3'></Type>
 
-                <button className='btn-projects mt-5'  onClick={() => navigate('/projects')}>
+                <a className='btn-projects mt-5'  href='/projects'>
                     <span className='flex justify-center items-center'>
                         <BsCodeSlash className='mr-1'></BsCodeSlash>
                         Projects
                     </span>
-                </button>
+                </a>
             </div>
 
         </>
