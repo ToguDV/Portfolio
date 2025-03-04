@@ -1,6 +1,7 @@
 import React from 'react'
 import togusbw from '../assets/togusbw.png';
 import Type from './Type';
+import { Link } from 'react-router-dom';
 import { BsCodeSlash } from 'react-icons/bs';
 
 const Profile = () => {
