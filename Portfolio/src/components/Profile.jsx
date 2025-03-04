@@ -1,8 +1,8 @@
 import React from 'react'
 import togusbw from '../assets/togusbw.png';
 import Type from './Type';
-import { Link } from 'react-router-dom';
 import { BsCodeSlash } from 'react-icons/bs';
+import { useNavigate } from 'react-router-dom';
 
 const Profile = () => {
     const navigate = useNavigate();
@@ -13,12 +13,12 @@ const Profile = () => {
                 <p className='mt-3'>Hey, I'm Togu 👋</p>
                 <Type className='desc-anim text-5xl w-11/12 text-center mt-3'></Type>
 
-                <Link to="/projects" className='btn-projects mt-5'>
+                <button className='btn-projects mt-5' onClick={() => navigate('/projects')}>
                     <span className='flex justify-center items-center'>
                         <BsCodeSlash className='mr-1' />
                         Projects
                     </span>
-                </Link>
+                </button>
             </div>
 
         </>
