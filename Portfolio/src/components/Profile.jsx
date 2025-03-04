@@ -4,6 +4,7 @@ import Type from './Type';
 import { BsCodeSlash } from 'react-icons/bs';
 
 const Profile = () => {
+    const navigate = useNavigate();
     return (
         <>
             <div className='flex flex-col items-center mt-20'>
@@ -11,7 +12,7 @@ const Profile = () => {
                 <p className='mt-3'>Hey, I'm Togu 👋</p>
                 <Type className='desc-anim text-5xl w-11/12 text-center mt-3'></Type>
 
-                <button className='btn-projects mt-5'>
+                <button className='btn-projects mt-5'  onClick={() => navigate('/projects')}>
                     <span className='flex justify-center items-center'>
                         <BsCodeSlash className='mr-1'></BsCodeSlash>
                         Projects
